@@ -1,0 +1,12 @@
+{% extends 'rango/base.html' %}
+
+{% load staticfiles %}
+
+{% block title %}Secret Page{% endblock %}
+
+{% block body_block %}
+    <h1>Rango says...</h1>
+    <strong>You have found the most hidden page in the world!</strong>
+
+    <img src="{% static '/images/secret.jpg' %}" alt="Secret Flowers" />
+{% endblock %}
